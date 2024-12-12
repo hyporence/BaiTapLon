@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         if (!enteredEmail || !enteredPassword) {
             showCustomAlert('Thông tin chưa được nhập đầy đủ!');
-        } else if (enteredEmail !== "admin@gmail.com" || enteredPassword !== "archive") {
+        } else if (enteredEmail !== "123@gmail.com" || enteredPassword !== "123") {
             showCustomAlert('Thông tin không đúng. Vui lòng kiểm tra lại!');
         } else {
             window.location.href = "./admin.html";
