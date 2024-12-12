@@ -87,8 +87,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const enteredPasswordConfirm = passwordConfirm ? passwordConfirm.value : '';
             if (!enteredEmail || !enteredPassword || !enteredPasswordConfirm) {
                 showCustomAlert('Không được bỏ trống bất kỳ mục nào!');
-            } else if (enteredEmail === "admin@gmail.com") {
-                showCustomAlert('Gmail chỉ được sử dụng cho Admin ở phần đăng nhập');
             } else if (!enteredEmail.includes('@gmail.com')) {
                 showCustomAlert('Định dạng Email không đúng. Vui lòng kiểm tra lại!');
             } else if (enteredPassword !== enteredPasswordConfirm) {
