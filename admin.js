@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', (event) => {
     // Tạo thông báo
     let alertBox = document.createElement('div');
-    alertBox.textContent = 'Đăng nhập thành công với tài khoản Admin. Chào mừng bạn quay trở lại!';
+    alertBox.textContent = 'Đăng nhập thành công. Chào mừng bạn quay trở lại!';
     alertBox.style.position = 'fixed';
     alertBox.style.left = '50%';
     alertBox.style.top = '20px';
