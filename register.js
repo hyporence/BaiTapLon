@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (enteredEmail !== "123@gmail.com" || enteredPassword !== "123") {
             showCustomAlert('Thông tin không đúng. Vui lòng kiểm tra lại!');
         } else {
-            window.location.href = "./admin.html";
+            window.location.href = "./index.html";
         }
     }
     const signIn = document.getElementById('myButton');
